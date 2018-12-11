@@ -1,6 +1,6 @@
-# irish-radio-streams
+# italian-radio-streams
 
-xspf file containing m3u streams of major Irish radio stations.
+xspf file containing m3u streams of major Italian and international radio stations.
 
 I use this with VLC's ncurses interface as a simple terminal based radio player:
 ```

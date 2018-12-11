@@ -3,10 +3,130 @@
 	<title>Irish Radio Streams</title>
 	<trackList>
 		<track>
+			<location>http://api.spreaker.com/listen/user/6006198/episode/latest/shoutcast.mp3</location>
+			<title>Radio Bertallot</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.raggakings.net/listen.m3u</location>
+			<title>Ragga Kings</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>11</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://shoutcast.rtl.it:3060/</location>
+			<title>RTL Radiofreccia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>12</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icestreaming.rai.it/1.mp3</location>
+			<title>Rai Radio 1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>21</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icestreaming.rai.it/2.mp3</location>
+			<title>Rai Radio 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>22</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icestreaming.rai.it/3.mp3</location>
+			<title>Rai Radio 3</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>23</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icestreaming.rai.it/4.mp3</location>
+			<title>Rai Radio 4 TuttaIta</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>24</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icestreaming.rai.it/5.mp3</location>
+			<title>Rai Radio 5 Classica</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>25</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icestreaming.rai.it/9.mp3</location>
+			<title>Rai Radio 6 Techete</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>26</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icestreaming.rai.it/10.mp3</location>
+			<title>Rai Radio 7 Live</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>27</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icestreaming.rai.it/11.mp3</location>
+			<title>Rai Radio 8 Opera</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>28</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icestreaming.rai.it/6.mp3</location>
+			<title>Rai IsoRadio</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>29</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icestreaming.rai.it/7.mp3</location>
+			<title>Rai GrParlamento</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>30</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://shoutcast.radio24.it:8000/listen.pls</location>
+			<title>Radio 24</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>34</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://onair11.xdevel.com:8024</location>
+			<title>LifeGate Radio</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>35</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
 			<location>http://av.rasset.ie/av/live/radio/radio1.m3u</location>
 			<title>RTÉ Radio 1</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>0</vlc:id>
+				<vlc:id>100</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -14,7 +134,7 @@
 			<location>http://av.rasset.ie/av/live/radio/2fm.m3u</location>
 			<title>RTÉ 2FM</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>1</vlc:id>
+				<vlc:id>101</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -22,7 +142,7 @@
 			<location>http://av.rasset.ie/av/live/radio/rnag.m3u</location>
 			<title>RTÉ Raidió na Gaeltachta</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>2</vlc:id>
+				<vlc:id>102</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -30,7 +150,7 @@
 			<location>http://av.rasset.ie/av/live/radio/lyric.m3u</location>
 			<title>RTÉ Lyric FM</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>3</vlc:id>
+				<vlc:id>103</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -38,7 +158,7 @@
 			<location>http://av.rasset.ie/av/live/radio/junior.m3u</location>
 			<title>RTÉjr</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>4</vlc:id>
+				<vlc:id>104</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -46,7 +166,7 @@
 			<location>http://av.rasset.ie/av/live/radio/pulse.m3u</location>
 			<title>RTÉ Pulse</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>5</vlc:id>
+				<vlc:id>105</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -54,7 +174,7 @@
 			<location>http://av.rasset.ie/av/live/radio/2xm.m3u</location>
 			<title>RTÉ 2XM</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>6</vlc:id>
+				<vlc:id>106</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -62,7 +182,7 @@
 			<location>http://av.rasset.ie/av/live/radio/gold.m3u</location>
 			<title>RTÉ Gold</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>7</vlc:id>
+				<vlc:id>107</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -70,7 +190,7 @@
 			<location>http://av.rasset.ie/av/live/radio/radio1extra.m3u</location>
 			<title>RTÉ Radio 1 Extra</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>8</vlc:id>
+				<vlc:id>108</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -78,7 +198,7 @@
       <location>http://pri.gocaster.net/td4.m3u</location>
 			<title>Today FM</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>9</vlc:id>
+				<vlc:id>109</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -86,7 +206,7 @@
       <location>http://pri.gocaster.net/98.m3u</location>
 			<title>98FM</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>10</vlc:id>
+				<vlc:id>110</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -94,7 +214,7 @@
       <location>http://31.14.40.241:6184/listen.pls</location>
 			<title>FM104</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>11</vlc:id>
+				<vlc:id>111</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -102,7 +222,7 @@
       <location>http://radionova128.media.vistatec.ie/listen.pls</location>
 			<title>Radio Nova</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>12</vlc:id>
+				<vlc:id>112</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -110,7 +230,7 @@
       <location>http://pri.gocaster.net/sp.m3u</location>
 			<title>Spin 103.8</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>13</vlc:id>
+				<vlc:id>113</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -118,7 +238,7 @@
       <location>http://pri.gocaster.net/NT.m3u</location>
 			<title>Newstalk</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>14</vlc:id>
+				<vlc:id>114</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -126,7 +246,7 @@
       <location>http://pri.gocaster.net/tx.m3u</location>
 			<title>TXFM</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>15</vlc:id>
+				<vlc:id>115</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>
@@ -134,7 +254,7 @@
       <location>http://stream2.radiomonitor.com/Q102.m3u</location>
 			<title>Q102</title>
 			<extension application="http://www.videolan.org/vlc/playlist/0">
-				<vlc:id>16</vlc:id>
+				<vlc:id>116</vlc:id>
 				<vlc:option>network-caching=1000</vlc:option>
 			</extension>
 		</track>

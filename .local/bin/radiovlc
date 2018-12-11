@@ -1,0 +1,3 @@
+#!/bin/bash
+
+vlc -I ncurses --no-color ~/.local/lib/radiovlc/radio.xspf 
